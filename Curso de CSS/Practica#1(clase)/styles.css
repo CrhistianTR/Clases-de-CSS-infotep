@@ -1,0 +1,112 @@
+/*{
+    margin: 0;
+    padding: 0;
+}*/
+
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 33px;
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#borde1{
+    border-style: dotted;
+    text-align: center;
+    padding: 20px;
+    margin-right: 52.5%;
+    
+}
+#borde1:active{
+    background-color: black;
+}
+
+#borde2{
+    border-style: dashed;
+    text-align: center;
+    padding: 20px;
+    margin-left: 52.5%;
+    margin-top: -6%;
+}
+
+#borde3{
+    border-style: solid;
+    text-align: center;
+    padding: 20px;
+    margin-right: 52.5%;
+}
+
+#borde4{
+    border-style: double;
+    text-align: center;
+    padding: 20px;
+    margin-left: 52.5%;
+    margin-top: -6%;
+}
+
+#borde5{
+    border-style: groove;
+    text-align: center;
+    padding: 20px;
+    margin-right: 52.5%;
+}
+
+#borde6{
+    border-style: ridge;
+    text-align: center;
+    padding: 20px;
+    margin-left: 52.5%;
+    margin-top: -6%;
+}
+
+#borde7{
+    border-style: inset;
+    text-align: center;
+    padding: 20px;
+    margin-right: 52.5%;
+}
+
+#borde8{
+    border-style: outset;
+    text-align: center;
+    padding: 20px;
+    margin-left: 52.5%;
+    margin-top: -6%;
+}
+
+#bordec1{
+    border-style: dotted dashed;
+    text-align: center;
+    padding: 20px;
+    margin-right: 52.5%;
+}
+#bordec2{
+    border-style: solid double;
+    text-align: center;
+    padding: 20px;
+    margin-left: 52.5%;
+    margin-top: -6%;
+}
+#bordec3{
+    border-style: inset ridge;
+    text-align: center;
+    padding: 20px;
+    margin-right: 52.5%;
+}
+#bordec4{
+    border-style: groove outset;
+    text-align: center;
+    padding: 20px;
+    margin-left: 52.5%;
+    margin-top: -6%;
+    margin: top right bottom left;
+    margin: top, right y left , bottom;
+    margin: top y bottom, right y left;
+    
+
+}
+

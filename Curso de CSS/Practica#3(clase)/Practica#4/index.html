@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cuestionario medieval</h1>
+    <i>Llene esto para evaluar su caballeria</i>
+
+    <video src="caballero.mp4" autoplay muted loop></video>
+<div>
+    <form action="formulario">
+        <fieldset>
+            <fieldset>
+                <legend>Formulario</legend>
+                <label >Que dia es hoy?</label>
+                <input type="date" required>
+              <hr>
+
+               <label>Elija su genero</label>
+              <input type="radio" value="hombre" name="Sexo" required>Hombre
+               <input type="radio" value="mujer" name="Sexo" required>Hombre
+              <hr>
+
+    
+                <label>Digame su nombre:</label>
+                <input type="text" placeholder=" Nombre" required>
+             <br>
+
+    
+                <label>Digame su apellido:</label>
+                <input type="text" placeholder=" Apellido"  required>
+                <hr>
+            
+                <label>Su contraseña</label> <br>
+                <input type="password" placeholder=" contraseña" required>
+                <hr>
+
+                <label>En que sector trabaja?</label> <br>
+                <input type="radio" name="Oficio" value="Des" checked required>Infanteria
+                <input type="radio" name="Oficio" value="SAC" required>Retaguardia
+                <input type="radio" name="Oficio" value="OFC" required>Lider de tropa
+                <input type="radio" name="Oficio" value="GER" required>Capitan
+                <hr>
+
+                <label>Su zona de guerra?</label>
+                <select name="" id="" required>
+                    <option value="Ingleterra">Ingleterra</option>
+                    <option value="Roma">Roma</option>
+                    <option value="America">America</option>
+                 <option value="España">España</option>
+                </select>
+            </fieldset>
+        </fieldset>
+        <input type="submit" value="Registrar"></input>
+    </form>
+</div>
+    
+</body>
+</html>

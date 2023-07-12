@@ -1,0 +1,39 @@
+legend{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+label{
+    text-align: center;
+    
+}
+input{
+    border-radius: 15px ;
+    border-color: rgb(211, 93, 93);
+}
+form{
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 20%;
+    margin-right: 60%;
+    
+}
+fieldset{
+    background-color: aliceblue;
+    border-color: black;
+}
+textarea{
+    margin-top: 80;
+}
+h1,i{
+    margin-left: 20%;
+    margin-right: 40%;
+}
+
+video{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

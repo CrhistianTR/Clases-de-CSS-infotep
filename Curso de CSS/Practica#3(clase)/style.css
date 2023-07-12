@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Busqueda {
+    background-color: black;
+    text-align: center;
+    padding: 2em;
+    margin: 0 2.5%;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:visited{
+    color: rgb(0, 197, 0);
+}
+
+nav ul li:hover a{
+    border-bottom: 5px greenyellow solid;
+    color: rgb(0, 255, 115);
+}
+
+nav ul li a:active{
+    color: rgb(255, 255, 255);
+    border-bottom: 5px rgb(255, 255, 255) solid;
+}
+
+/*Fondos*/
+
+.Fondo{
+    margin: 0 2.5%;
+    width: 95%;
+    height: 100vh;
+    padding: 0.1px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Parte1{
+    background-image: url('fondo1.jpg');
+}
+
+.Parte2{
+    background-image: url('fondo2.jpg');
+}
+
+.Parte3{
+    background-image: url('fondo3.jpg');
+}
+.Fondo h2{
+    font-size: 45px;
+    margin: 20px 2.5% 0;
+    text-align: center;
+}
+
+.Fondo p{
+    margin: 45px 15% 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Parte1 h2{
+    background-color: rgba(255, 0, 221, 0.4);
+}
+
+.Parte1 p{
+    background-color: rgba(255, 0, 85, 0.4);
+}
+
+.Parte2 h2{
+    background-color: rgba(9, 255, 0, 0.4);
+}
+
+.Parte2 p{
+    background-color: rgb(128, 255, 0, 0.4);
+}
+
+.Parte3 h2{
+    background-color: rgba(0, 153, 255, 0.4);
+}
+
+.Parte3 p{
+    background-color: rgb(0, 183, 255, 0.4);
+}
+
+.Boton{
+    background-color: black;
+    color: #fff;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    margin-top: calc(50vh - 50px);
+    margin-bottom: calc(50vh - 50px);
+    font-size: 25px;
+    
+}
+
+
